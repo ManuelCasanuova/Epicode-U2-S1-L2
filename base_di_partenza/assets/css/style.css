@@ -33,6 +33,10 @@ header {
   z-index: 900;
 }
 
+.imgLeft {
+  float: left;
+}
+
 @media screen and (min-width: 800px) {
   header {
     padding: 1em;
@@ -142,10 +146,6 @@ blockquote {
 
 h1 + p {
   color: #a0a0a0;
-}
-
-article.img {
-  position: absolute;
 }
 
 @media screen and (max-width: 499px) {
@@ -502,7 +502,7 @@ aside > div {
   position: relative;
 }
 
-aside div > p .fa-tag {
+aside div .fa-tag {
   position: absolute;
   display: block;
   color: lightgray;
