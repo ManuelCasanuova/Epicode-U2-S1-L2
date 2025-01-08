@@ -27,7 +27,12 @@ header {
   box-shadow: 0 3px 3px #444;
   margin-bottom: 1.5em;
   padding: 2em 1.5em;
+
+  position:sticky;
+  top: 0;
+  z-index: 900;
 }
+
 
 @media screen and (min-width: 800px) {
   header {
@@ -60,6 +65,7 @@ header {
   header .brand p {
     margin-bottom: 0;
   }
+  
 }
 
 header nav ul {
@@ -112,6 +118,9 @@ section h2 {
   font-weight: bold;
   background-color: #a3a3a3;
   padding: 0px 1em;
+  position: absolute;
+  top: -18px;
+  text-transform: uppercase;
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
@@ -219,6 +228,7 @@ iframe {
     width: 50%;
     margin-inline: -2px;
     vertical-align: middle;
+    height: 267px;
   }
 
   iframe {
